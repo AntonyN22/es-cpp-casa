@@ -107,11 +107,11 @@ int cancella_valore(int arr[],bool ricor,int valore){
     }    
     int pos=-1;
     for(int i=0;i<LOGICLENGHT;i++){
-        if(arr[i]=val){
+        if(arr[i]==val){
             pos=i;            
         }
     }
-    if(pos>0){
+    if(pos>=0){
         ricompatta(arr,pos);
         return cancella_valore(arr,1,val);
     } 
