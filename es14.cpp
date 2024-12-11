@@ -17,7 +17,8 @@ int main(){
                     i++;
                 }
                 else{
-                    
+                    cout<<"Il programma consente al massimo 50 tiri!\n";
+                    return 1;
                 }
                
                 break;
